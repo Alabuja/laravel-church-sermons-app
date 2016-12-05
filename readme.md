@@ -1,13 +1,14 @@
 # Laravel Church Sermons App
 
 Laravel church sermons app is basically an app for churches to make available their messages preached in church for members.
-Project moved and resumed : https://gitlab.com/dameety/laravel-church-sermons-app
 
 ## Screenshots:
 
 ###User home after login
 
-![userhome](/uploads/64370c517818ab3f96d492c23980a7ee/userhome.png)
+![userhome](https://cloud.githubusercontent.com/assets/10757330/20873789/9de725de-baab-11e6-8328-e7154a62e46b.png)
+
+
 
 ###Dashboard
 
