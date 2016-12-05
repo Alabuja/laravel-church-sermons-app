@@ -1,6 +1,6 @@
 # Laravel Church Sermons App
 
-Laravel church sermons app is basically an app for churches to make available their messages preached in church for members.
+Laravel church sermons app is basically an app for churches to make available the messages preached in church for all members. 
 
 ## Screenshots:
 
@@ -69,23 +69,32 @@ Vuejs powered ui. (ajax pagination, editing, etc)
 
 ## Where the project could go:
 
-Know when a user is online.
+- Know when a user is online.
 
-Add analytics.
+- Add analytics.
 
-Add sermon request functionality.
+- Add sermon request functionality.
 
-Integrate payment(free and premium users)
+- Integrate payment(free and premium users)
+
 
 
 #Credits
 I used the tools/projects below in development.
 
-Director admin template: https://www.bootstrapzero.com/bootstrap-template/director-responsive-admin
-Vuejs: https://vuejs.org/
-Laravel: https://laravel.com/
-Bootstrap
-Jquery
+
+- [Laravel](https://www.laravel.com/)
+
+- [Director admin template](https://www.bootstrapzero.com/bootstrap-template/director-responsive-admin)
+
+- [Vuejs](https://www.vuejs.org/)
+
+- [Semantic-ui](http://www.semantic-ui.com)
+
+- [Bootstrap](https://www.getbootstrap.com)
+
+- [Jquery](http://www.jquery.com)
+
 
 ## License
 [MIT license](http://opensource.org/licenses/MIT).
