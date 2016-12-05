@@ -1,0 +1,29 @@
+.navButton {
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.actionButtons {
+	background-color: silver;
+}
+
+#actionButtons {
+	background-color: #E4E4E4;
+}
+
+#caption {
+	padding: 0px;
+}
+
+#topSearch {
+	margin-top: 10px; 
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+.pagination {
+	margin-top: 40px; 
+	margin-bottom: 30px;
+}
