@@ -5,6 +5,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// ALL USER ROUTES
+Route::group(['namespace' => 'API'], function () {
+    Route::get('users/sermons/paginated', 'SermonsApiController@allSermonsPaginated');
+});
+
+
+
+// ALL ADMIN ROUTES
 /*collect all sermons*/
 Route::group(['prefix' => 'api', 'namespace' => 'API', 'middleware' => 'admin'], function () {
 
@@ -69,7 +77,6 @@ Route::get('admin/password/reset/{token?}','AdminAuth\PasswordController@showRes
 Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin', 'AdminController@index')->name('dashboard_path');
     Route::get('/admin/admins', 'AdminController@allAdminsPage')->name('adminsPage_path');
-
 });
 
 /*sermon routes*/
@@ -121,7 +128,6 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin/sermonrequests', 'SermonrequestsController@index')->name('allsermonrequests_path');
     Route::get('/sermonrequest/delete/{$slug}', 'SermonrequestsController@destroy')->name('sermonrequestdelete_path');
     Route::get('/sermonrequest/details/{slug}', 'SermonrequestsController@show')->name('sermonrequestdetails_path');
-
 });
 
 
