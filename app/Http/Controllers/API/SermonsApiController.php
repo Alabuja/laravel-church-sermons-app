@@ -134,7 +134,6 @@ class SermonsApiController extends Controller
      */
     public function destroy(Sermon $sermon)
     {
-        /* $sermon = Sermon::whereSlug($slug)->first();*/
         $sermon->delete();
     }
 
